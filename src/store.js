@@ -2,10 +2,10 @@ import { writable } from "svelte/store";
 
 const itemName = "wordStore";
 const stored = localStorage.getItem(itemName);
-const parsed = stored ? JSON.parse(stored) : "{}";
+const parsed = stored ? JSON.parse(stored) : "";
 
 let uniqueWords = [];
-parsed.forEach((c) => {
+Array.from(parsed).forEach((c) => {
   if (!uniqueWords.includes(c)) {
     uniqueWords.push(c);
   }
