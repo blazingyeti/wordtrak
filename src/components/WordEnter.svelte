@@ -19,7 +19,7 @@
   }
 </script>
 
-<section class="flex my-4">
+<section class="my-4">
   <form
     id="inputForm"
     autocomplete="off"

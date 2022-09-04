@@ -9,7 +9,6 @@
 </script>
 
 <section class="flex flex-col items-center">
-  <h2>Current Word List</h2>
   <ul>
     {#each $wordStore as word}
       <li

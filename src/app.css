@@ -6,8 +6,6 @@
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -16,23 +14,23 @@
 }
 
 body {
-  @apply bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+  @apply bg-neutral-700 text-gray-200;
 }
 
 .title {
-  @apply flex justify-center font-bold text-3xl p-10;
+  @apply flex justify-center font-bold text-3xl px-10;
 }
 
 .word-input {
   @apply block
         w-full px-3 py-1.5
         text-base font-normal
-        text-gray-700
-        bg-white bg-clip-padding
-        border border-solid border-gray-300
+        text-gray-900
+        bg-gray-200 bg-clip-padding
+        border border-solid border-gray-200
         rounded
         transition
         ease-in-out
         m-0
-        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none;
+        focus:bg-white focus:border-blue-600 focus:outline-none;
 }
