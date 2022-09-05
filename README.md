@@ -1,6 +1,6 @@
 # WordTrak
 
-A simple word tracking app developed with Svelte and Tailwind CSS in ViteJS.
+A simple word tracking app built with Svelte and Tailwind CSS.
 
 ## Setup
 

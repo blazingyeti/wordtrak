@@ -9,7 +9,10 @@
 </script>
 
 <section class="flex flex-col items-center">
-  <ul>
+  <div class="flex gap-2">
+    Current Word Count: <div class="font-bold">{$wordStore.length}</div>
+  </div>
+  <ul class="flex-grow">
     {#each $wordStore as word}
       <li
         class="capitalize hover:cursor-pointer hover:scale-110 transition duration-100"

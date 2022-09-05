@@ -3,7 +3,7 @@
   import WordList from "./components/WordList.svelte";
 </script>
 
-<main class="flex flex-col justify-center items-center h-screen">
+<main class="flex flex-col justify-center items-center min-h-screen">
   <h1 class="title">WordTrak</h1>
   <WordEnter />
   <WordList />
